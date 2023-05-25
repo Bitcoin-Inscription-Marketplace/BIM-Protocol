@@ -12,7 +12,7 @@ The protocol may change in the future! Do not build anything that you may lose m
 
 ## Disadvantages of BIM (compared to Ordinals)
 
-* Higher transaction fees
+* Higher transaction fees, if only transacting BIM data, or if compression doesn't reduce file size
 * If you can think of more, please create an issue!
 
 ## Explanation of how BIM works
@@ -21,7 +21,7 @@ BIM uses a technology used in Bitcoin called SegWit. In simple terms, SegWit put
 
 ## Table of Contents
 
-* Header and Compression
+* [Header and Compression](header-compression.md)
 * Creating Inscription
 * Creating Collection
 * Transferring Inscription to Another Wallet

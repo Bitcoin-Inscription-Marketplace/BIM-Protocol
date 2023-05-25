@@ -2,7 +2,7 @@
 
 ## Header
 
-The Header is what is included in every single transaction containing BIM data. Here is an example header:
+The Header is what is included in every single transaction containing BIM data. Any valid JSON can be used and does NOT need to have the whitespace, unlike below. Here is an example header:
 
 ```
 {
@@ -14,3 +14,7 @@ The Header is what is included in every single transaction containing BIM data. 
     "signature": "" // The signature for verifing that the person performing the transaction has access to the private keys for the owner of the inscription or the person making the offer. Not required on createbim and createcoll
 }
 ```
+
+## Compression
+
+Compression is done with the highly popular, LZMA. This is because LZMA is known for incredibly high compression ratios, sacrificing speed for file size, which is very important when storing data in a blockchain. Compression is a required part of the BIM protocol and if compression is not performed then it is NOT BIM compliant. Please note that LZMA may increase file sizes on rare circumstances.
