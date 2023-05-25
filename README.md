@@ -1,5 +1,7 @@
 # BIM - Bitcoin Inscription Marketplace
 
+The protocol may change in the future! Do not build anything that you may lose money on using this protocol yet until it is in a more completed state. I am not responsible for any lost funds.
+
 ## Why use BIM over Ordinals
 
 * BIM doesn't need a wallet that provides satoshi control
