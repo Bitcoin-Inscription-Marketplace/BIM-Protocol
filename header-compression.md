@@ -17,4 +17,4 @@ The Header is what is included in every single transaction containing BIM data. 
 
 ## Compression
 
-Compression is done with the highly popular, LZMA. This is because LZMA is known for incredibly high compression ratios, sacrificing speed for file size, which is very important when storing data in a blockchain. Compression is a required part of the BIM protocol and if compression is not performed then it is NOT BIM compliant. Please note that LZMA may increase file sizes on rare circumstances.
+Compression is done with the highly popular, LZMA2. This is because LZMA2 is known for incredibly high compression ratios, sacrificing speed for file size, which is very important when storing data in a blockchain. Compression is a required part of the BIM protocol and if compression is not performed then it is NOT BIM compliant. Please note that LZMA2 may increase file sizes on rare circumstances.
