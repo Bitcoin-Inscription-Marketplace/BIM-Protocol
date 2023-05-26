@@ -5,7 +5,7 @@ Here is what the header should look like when listing an inscription for auction
 ```
 {
     "previousTx": "",
-    "action": "sell",
+    "action": "auction",
     "timestamp": number,
     "data": {
 

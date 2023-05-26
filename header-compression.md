@@ -7,7 +7,7 @@ The Header is what is included in every single transaction containing BIM data. 
 ```
 {
     "previousTx": "",  // The previous transaction hash that interacts with the BIM inscription. Not necessary if this is a collection creation or new inscription
-    "action": "", // The action that is being performed. Possible values: createbim, createcoll, send, sell, auction, offer, acceptoffer, offerpayment, buy
+    "action": "", // The action that is being performed. Possible values: createbim, createcoll, send, sell, auction, offer, acceptoffer, offerpayment, buy, bid, payauction
     "timestamp": number // The unix timestamp that the BIM inscription is created. Must be higher than the one in previousTx
     "data": {
 
