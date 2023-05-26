@@ -18,6 +18,7 @@ This is what the data field should look like:
 
 ```
 "data": {
-    "price" number // The price in satoshis
+    "price": number, // The price in satoshis
+    "payTo": "" // The address that the payment must be given to
 }
 ```
