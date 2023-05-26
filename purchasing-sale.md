@@ -9,8 +9,7 @@ Here is what the header should look like when purchasing an inscription that is 
     "timestamp": number,
     "data": {
 
-    },
-    "signature": "SHA3-512 hash of signature of previousTx + action + timestamp + data"
+    }
 }
 ```
 
