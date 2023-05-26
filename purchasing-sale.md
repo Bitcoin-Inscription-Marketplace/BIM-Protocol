@@ -5,7 +5,7 @@ Here is what the header should look like when purchasing an inscription that is 
 ```
 {
     "previousTx": "",
-    "action": "sell",
+    "action": "buy",
     "timestamp": number,
     "data": {
 
