@@ -24,7 +24,7 @@ BIM uses a technology used in Bitcoin called SegWit. In simple terms, SegWit put
 * [Header and Compression](header-compression.md)
 * [Creating Inscription](creating-inscription.md)
 * [Creating Collection](creating-collection.md)
-* Transferring Inscription to Another Wallet
+* [Transferring Inscription to Another Wallet](transferring.md)
 * Listing Inscription for Sale
 * Listing Inscription for Auction
 * Sending Offer for Inscription
