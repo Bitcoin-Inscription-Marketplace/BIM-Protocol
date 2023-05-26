@@ -30,3 +30,9 @@ BIM uses a technology used in Bitcoin called SegWit. In simple terms, SegWit put
 * Sending Offer for Inscription
 * Accepting Offer
 * Paying for Accepted Offer
+
+## Since the previous tx can be set to anything, can BIM inscriptions be faked?
+
+No, since wallets are expected to verfy everything. The previous tx is there for two reasons:
+1. Speed up discovery AFTER verification
+2. To be able to determine the root transaction, aka. the tx where the BIM is created
