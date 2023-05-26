@@ -12,7 +12,7 @@ The Header is what is included in every single transaction containing BIM data. 
     "data": {
 
     }, // The actual BIM data
-    "signature": "" // The signature for verifing that the person performing the transaction has access to the private keys for the owner of the inscription or the person making the offer. Not required on createbim and createcoll
+    "signature": "" // The signature for verifing that the person performing the transaction has access to the private keys for the owner of the inscription or the person making the offer. Not required on createbim, buy and createcoll
 }
 ```
 "previousTx" is the last transaction that is performed on that BIM inscription. Eg. if the last transaction that contained the data was `b4f9b23bd3990b6ad042256dbf8642e474ad7469635daaacecb1826b3185d18a` then that is what would be put in this field. If the previous transaction that contains the BIM is a collection, then that should NOT be used as collections can contain many BIMS and software cannot determine the BIM owner.
