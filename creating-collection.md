@@ -1,8 +1,8 @@
 # Creating Collection
 
-Creating an Inscription does NOT require a previous transaction.
+Creating a Collection does NOT require a previous transaction.
 
-Here is what the header should look like when creating an inscription:
+Here is what the header should look like when creating a collection:
 
 ```
 {
