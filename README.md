@@ -33,4 +33,4 @@ BIM uses a technology used in Bitcoin called SegWit. In simple terms, SegWit put
 * [Sending Offer for Inscription](offer.md)
 * [Accepting Offer](accept-offer.md)
 * [Declining Offer](declining-offer.md)
-* Paying for Accepted Offer
+* [Paying for Accepted Offer](pay-offer.md)
