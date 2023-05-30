@@ -5,7 +5,7 @@ Here is what the header should look like when sending an offer for an inscriptio
 ```
 {
     "rootTx": "",
-    "action": "auction",
+    "action": "offer",
     "timestamp": number,
     "data": {
 
