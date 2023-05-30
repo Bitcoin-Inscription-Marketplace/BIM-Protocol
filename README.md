@@ -17,7 +17,7 @@ The protocol may change in the future! Do not build anything that you may lose m
 
 ## Explanation of how BIM works
 
-BIM uses a technology used in Bitcoin called SegWit. In simple terms, SegWit puts signature data outside of the main part of the transaction, to save block space. This allows a higher amount of data to be stored in a block, to be specific 4mb. SegWit also allows any data to be stored in the extra space. This is where BIM information is stored.
+BIM uses a technology used in Bitcoin called SegWit. In simple terms, SegWit puts signature data outside of the main part of the transaction, to save block space. This allows a higher amount of data to be stored in a block, to be specific, up to 4mb. SegWit also allows any data to be stored in the extra space. This is where BIM information is stored.
 
 ## Table of Contents
 
@@ -33,9 +33,3 @@ BIM uses a technology used in Bitcoin called SegWit. In simple terms, SegWit put
 * Sending Offer for Inscription
 * Accepting Offer
 * Paying for Accepted Offer
-
-## Since the previous tx can be set to anything, can BIM inscriptions be faked?
-
-No, since wallets are expected to verfy everything. The previous tx is there for two reasons:
-1. Speed up discovery AFTER verification
-2. To be able to determine the root transaction, aka. the tx where the BIM is created

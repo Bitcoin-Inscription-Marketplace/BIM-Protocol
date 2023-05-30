@@ -4,7 +4,7 @@ Here is what the header should look like when purchasing an inscription that is 
 
 ```
 {
-    "previousTx": "",
+    "rootTx": "",
     "action": "payauction",
     "timestamp": number,
     "data": {

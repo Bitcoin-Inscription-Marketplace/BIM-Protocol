@@ -4,7 +4,7 @@ Here is what the header should look like when submitting a bid into an auction:
 
 ```
 {
-    "previousTx": "",
+    "rootTx": "",
     "action": "bid",
     "timestamp": number,
     "data": {
